@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c00cf0-831d-4ce2-bb75-efcde9814f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network_selfstudy/dig_loop.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network_selfstudy/task2-2.tempfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network_selfstudy/task2-3.tempfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Network_selfstudy/test.dictionary" />
-    </list>
+    <list default="true" id="42c00cf0-831d-4ce2-bb75-efcde9814f02" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
