@@ -1,0 +1,437 @@
+
+; <<>> DiG 9.10.6 <<>> 198.41.0.4 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 24584
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;198.41.0.4.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86396	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86396	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 711
+
+
+; <<>> DiG 9.10.6 <<>> 199.9.14.201 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21759
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;199.9.14.201.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86397	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86397	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 7 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 713
+
+
+; <<>> DiG 9.10.6 <<>> 192.33.4.12 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61480
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.33.4.12.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86397	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86397	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 7 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 712
+
+
+; <<>> DiG 9.10.6 <<>> 199.7.91.13 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 26022
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;199.7.91.13.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86395	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86395	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86395	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86395	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 10 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 712
+
+
+; <<>> DiG 9.10.6 <<>> 192.203.230.10 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32065
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.203.230.10.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86398	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86398	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86397	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86397	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 6 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 715
+
+
+; <<>> DiG 9.10.6 <<>> 192.5.5.241 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4491
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.5.5.241.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86389	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86389	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86389	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86389	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 712
+
+
+; <<>> DiG 9.10.6 <<>> 192.112.36.4 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18516
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.112.36.4.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86397	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86397	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 7 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 713
+
+
+; <<>> DiG 9.10.6 <<>> 198.97.190.53 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 53613
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;198.97.190.53.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86396	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86396	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 192.36.148.17 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46534
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.36.148.17.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86395	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86395	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86395	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86395	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 192.58.128.30 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40485
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;192.58.128.30.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86394	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86394	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86394	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86394	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 193.0.14.129 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 36273
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;193.0.14.129.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86398	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86398	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86398	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86398	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 713
+
+
+; <<>> DiG 9.10.6 <<>> 199.7.83.42 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17031
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;199.7.83.42.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86393	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86393	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86392	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86392	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 712
+
+
+; <<>> DiG 9.10.6 <<>> 202.12.27.33 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7501
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;202.12.27.33.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86395	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86395	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86395	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86395	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 713
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.144.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 56176
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.144.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86395	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86395	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86394	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86394	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.145.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 4419
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.145.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86393	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86393	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86393	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86393	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.159.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 39862
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.159.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86390	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86390	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86390	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86390	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.156.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 63551
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.156.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86392	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86392	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86392	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86392	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 9 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.157.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7516
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.157.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86396	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86396	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86396	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86396	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
+
+; <<>> DiG 9.10.6 <<>> 156.154.158.2 any @8.8.8.8 +recurse +bufsize=65535 +dnssec
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 31753
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 0, AUTHORITY: 4, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+;; QUESTION SECTION:
+;156.154.158.2.			IN	ANY
+
+;; AUTHORITY SECTION:
+.			86397	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018112200 1800 900 604800 86400
+.			86397	IN	RRSIG	SOA 8 0 86400 20181205050000 20181122040000 2134 . 1u1Sqv8ECD210mxtgwtizMbfyjp9C7rVwUZ4e5pNqp0gvKltJxX2Aigk Os02y+frgQj1LR7tolA30Ns69dd0Us4D0zbItF1gdq6ZfeZEX2HAObL6 8MyRe06WjzT59w0oDnSwgjfdsip2wu8jXt6TTXMhkGSOdOgMMjHDrJfy R+DUxuPD+Ee2U204xqjS40p5h4qmSS/TjRz9WU+5bRcheQS6rTJ1iDWl tN7PBdlprHvWsDqFN0y61JzUsGRDWvdDWrMTzWpYKHjlItsFu9s2TG4a EvHxRxQJqsW7Gxv5g6Ot8cZrycNg++LcKnhnYU1YtkY4ufxHBhEHZux3 Q+/rcA==
+.			86397	IN	NSEC	aaa. NS SOA RRSIG NSEC DNSKEY
+.			86397	IN	RRSIG	NSEC 8 0 86400 20181205050000 20181122040000 2134 . xYA3RsR4uZUpx466aMLhiQZhnRZ0ZnHjbK/O+OcB30ptoEuS71r1Xd1N zKuzBZvcJmaAwrOiNkrgGQgachkIrhuF8Krc1eMfAv+QXJCvJBq8196B vcXd31rqBv0QRgC1JlcoiWRlFmQq9lB9vFX9oPOjzeMuflzrK9+8ADr3 hmnfinYmAcEkLvHsoYT4+3bksXKqCOjS9vtQKLoXDzlk/Ve49k7JWNLx MDBvDXpUgal7+wm+KASEsyvSDYYxYzJ5eSdkEAM2KvaAWSCA2NbofY+O z7+6VbX2MX6R9P/mT6G1iQk42YC693AuYol3PiVaGcZWzJHL7vsNueMb lKmq/w==
+
+;; Query time: 8 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Nov 22 16:14:54 +08 2018
+;; MSG SIZE  rcvd: 714
+
